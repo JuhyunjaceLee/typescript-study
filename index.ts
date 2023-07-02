@@ -19,3 +19,7 @@ c = "hello";
 let d: number | string = "hello";
 d = 100;
 // d = false;
+
+let e: string[] = ["apple", "banana"];
+e.push("carrot");
+// e.push(100);
