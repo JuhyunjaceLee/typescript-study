@@ -23,3 +23,8 @@ d = 100;
 let e: string[] = ["apple", "banana"];
 e.push("carrot");
 // e.push(100);
+
+function addNumber(a: number, b: number): number {
+  return a + b;
+}
+addNumber(3, 7);
