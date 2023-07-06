@@ -28,3 +28,8 @@ function addNumber(a: number, b: number): number {
   return a + b;
 }
 addNumber(3, 7);
+
+function addString(a: string, b: number): string {
+  return a + b;
+}
+addString("hello", 14);
